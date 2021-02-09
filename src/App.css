@@ -37,3 +37,69 @@
     transform: translateY(0px)
   }
 }
+
+.form-group label {
+  display: block;
+  text-align: left;
+}
+.form-group input {
+  display: block;
+  width: 100%;
+  border: 1px solid #bcbec7;
+  border-radius: 4px;
+  padding: 8px 5px 8px 10px;
+  margin: 5px 0px;
+}
+.form-group input:focus {
+  outline: gray;
+}
+.movie-form {
+  text-align: left;
+}
+.submit {
+  margin: 10px 0px;
+  background: #376bff;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.submit.disable {
+  cursor: no-drop;
+}
+.submit:hover {
+  background: #5b5baa;
+}
+.movie-content {
+  margin: 5px 0px;
+}
+.movie {
+  margin: 0px 10%;
+}
+table {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+table thead {
+  text-align: left;
+}
+table thead th {
+  border-bottom: 2px solid #bcbec7;
+  border-top: 1px solid #bcbec7;
+  padding: 10px 0px;
+  width: 25%;
+}
+table thead th:first-child {
+  width: 50%;
+}
+table tbody tr td {
+  border-bottom: 1px solid #bcbec7;
+  padding: 10px 0px 10px 10px;
+}
+table tbody tr td:first-child {
+  padding: 10px 0px 10px 10px
+}
